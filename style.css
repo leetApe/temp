@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.title-padding {
+    padding-right:  100px;
+    padding-left: 150px;
+}
+
+.title-fs {
+    font-size: 70px;
+}
+
+@media (max-width: 1400px) {
+    .title-padding {
+        padding-right:  50px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title-padding {
+        padding-right:  50px;
+        padding-left: 50px;
+    }
+
+    .title-fs {
+        font-size: 40px;
+    }
+}
+
+.card {
+    height: 500px;
+}
